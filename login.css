@@ -1,0 +1,82 @@
+body {
+    background-color: #1c1c1c; /* Fondo negro */
+    font-family: 'Arial', sans-serif; /* Fuente principal */
+    height: 100vh; /* Altura del cuerpo */
+    margin: 0;
+    display: flex; /* Flexbox para centrar el contenido */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+}
+
+.login-box {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semitransparente */
+    padding: 40px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 5px 15px rgb(255, 252, 252); /* Sombra */
+    width: 320px; /* Ancho del cuadro */
+    text-align: center; /* Texto centrado */
+}
+
+.login-box h2 {
+    color: #ffffff; /* Texto blanco */
+    margin-bottom: 30px; /* Espacio debajo del título */
+    font-size: 24px; /* Tamaño de fuente del título */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.login-box .form-group {
+    margin-bottom: 20px; /* Espacio entre inputs */
+    text-align: left; /* Alineación a la izquierda de las etiquetas */
+}
+
+.login-box label {
+    color: #ffffff; /* Texto blanco */
+    font-size: 14px; /* Tamaño de fuente de las etiquetas */
+}
+
+.login-box input {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 10px; /* Espacio interno */
+    background: #2c2c2c; /* Fondo gris oscuro */
+    border: 1px solid #ffffff; /* Borde blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    color: #ffffff; /* Texto blanco */
+    font-size: 14px; /* Tamaño de fuente */
+    margin-top: 5px;
+}
+
+.login-box input::placeholder {
+    color: #bfbfbf; /* Placeholder gris claro */
+}
+
+.login-box button {
+    background-color: #4CAF50; /* Botón verde */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px; /* Espacio interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor pointer */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    width: 100%; /* Ocupa todo el ancho */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.login-box button:hover {
+    background-color: #45a049; /* Verde más oscuro en hover */
+    color: #ffffff; /* Texto blanco */
+}
+
+.login-box .register-link {
+    margin-top: 20px; /* Margen superior del enlace de registro */
+}
+
+.login-box .register-link a {
+    color: #ffffff; /* Enlace blanco */
+    font-size: 14px; /* Tamaño de fuente */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.login-box .register-link a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}

@@ -1,0 +1,92 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-between; /* Espaciado entre las cards */
+  padding: 20px;
+  gap: 20px; /* Espacio uniforme entre las cards */
+  flex-wrap: nowrap; /* No permite que las tarjetas pasen a otra fila */
+  overflow-x: auto; /* Habilita el desplazamiento horizontal si es necesario */
+}
+
+.product {
+  flex: 0 0 300px; /* Ancho fijo de 300px para todas las cards */
+  height: 400px; /* Alto fijo para uniformar todas las cards */
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: transform 0.2s; /* Animación suave al pasar el mouse */
+  background-color: #fff; /* Fondo blanco para todas las cards */
+  position: relative; /* Para posicionar el botón correctamente */
+}
+
+.product:hover {
+  transform: scale(1.05); /* Efecto de agrandar al pasar el mouse */
+}
+
+.product img {
+  max-width: 100%;
+  height: 150px; /* Tamaño uniforme de la imagen */
+  object-fit: cover; /* Ajuste de imagen para mantener proporción */
+}
+
+.product h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.product p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  height: 100px; /* Limita la altura del texto para que todas las descripciones sean uniformes */
+  overflow: hidden; /* Oculta el exceso de texto si es necesario */
+  text-overflow: ellipsis; /* Agrega puntos suspensivos si el texto es demasiado largo */
+}
+
+.product button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px; /* Posiciona el botón en la parte inferior de la card */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.product button:hover {
+  background-color: #45a049;
+}

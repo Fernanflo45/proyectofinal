@@ -1,0 +1,75 @@
+body {
+    background-color: #1c1c1c; /* Fondo negro */
+    font-family: 'Arial', sans-serif; /* Fuente principal */
+    height: 100vh; /* Altura del cuerpo */
+    display: flex; /* Flexbox para centrar el contenido */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    margin: 0;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semitransparente */
+    padding: 40px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 5px 15px rgba(255, 253, 253, 0.5); /* Sombra */
+    max-width: 450px; /* Ancho máximo del contenedor */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    text-align: center; /* Texto centrado */
+    color: #ffffff; /* Texto blanco */
+}
+
+h1 {
+    margin-bottom: 30px; /* Espacio debajo del título */
+    font-size: 24px; /* Tamaño del título */
+    font-weight: bold; /* Negrita */
+    color: #ffffff; /* Título blanco */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Espacio entre los inputs */
+}
+
+.form-group input {
+    width: 100%; /* Ocupa todo el ancho */
+    padding: 10px; /* Espacio interno */
+    background-color: #333; /* Fondo gris oscuro */
+    border: 1px solid #ffffff; /* Borde blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    color: #ffffff; /* Texto blanco */
+    font-size: 16px; /* Tamaño de fuente */
+    margin-top: 10px;
+}
+
+.form-group input::placeholder {
+    color: #bfbfbf; /* Placeholder en gris claro */
+}
+
+.btn-primary {
+    background-color: #4CAF50; /* Fondo verde */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px; /* Espacio interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    cursor: pointer; /* Cursor en pointer */
+    transition: background-color 0.3s ease; /* Transición suave en hover */
+}
+
+.btn-primary:hover {
+    background-color: #45a049; /* Verde más oscuro en hover */
+}
+
+.text-center {
+    margin-top: 20px; /* Margen superior para el enlace */
+}
+
+.login-link {
+    color: #ffffff; /* Enlace blanco */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.login-link:hover {
+    color: #f1f1f1; /* Color más claro en hover */
+}
